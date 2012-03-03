@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Idea Wordpress Theme 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-19 10:47+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vincenzo 'Nemo' Russo <nemo@neminis.org>\n"
+"Language-Team: Vincenzo Russo <nemo@neminis.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:3
+#: archive.php:26
+#: index.php:44
+#: page.php:28
+#: search.php:25
+#: single.php:40
+msgid "Not Found"
+msgstr "Non trovato"
+
+#: 404.php:3
+#: archive.php:26
+#: index.php:44
+#: page.php:28
+#: search.php:25
+#: single.php:40
+msgid "You are looking for something which just is not here! Fear not however, errors are to be expected, and luckily there are tools on the sidebar for you to use in your search for what you need."
+msgstr "Stai cercando qualcosa che non &egrave; qui! Niente paura, comunque. Gli errori sono comuni e fortunatamente ci sono strumenti nella barra laterale che puoi usare per trovare ci&ograve; che ti cerchi."
+
+#: archive.php:12
+#: feeds.php:1
+#: index.php:14
+#: search.php:11
+msgid "Comments"
+msgstr "Commenti"
+
+#: archive.php:12
+#: index.php:14
+#: search.php:11
+msgid "Comment"
+msgstr "Commento"
+
+#: archive.php:13
+#: index.php:15
+#: page.php:11
+#: search.php:12
+#: single.php:12
+msgid "Follow the comments by this RSS feed"
+msgstr "Segui i commenti tramite questo feed RSS"
+
+#: archive.php:13
+#: index.php:15
+#: page.php:11
+#: search.php:12
+#: single.php:12
+msgid "Follow comments"
+msgstr "Segui i commenti"
+
+#: archive.php:15
+#: index.php:17
+#: page.php:13
+#: search.php:14
+#: single.php:14
+msgid "e"
+msgstr "e"
+
+#: archive.php:19
+#: index.php:24
+#: index.php:28
+#: page.php:16
+#: search.php:18
+#: single.php:17
+msgid "Read more"
+msgstr "Leggi il seguito"
+
+#: comments.php:7
+#: related-posts.php:7
+#, fuzzy
+msgid "Password protected"
+msgstr "Protetto da password"
+
+#: comments.php:8
+#: related-posts.php:8
+msgid "Enter the password to view comments."
+msgstr "Inserire la password per leggere i commenti."
+
+#: comments.php:21
+msgid "No Comments"
+msgstr "Nessun commento"
+
+#: comments.php:21
+msgid "One Comment"
+msgstr "Un commento"
+
+#: comments.php:21
+msgid "% Comments"
+msgstr "% Commenti"
+
+#: comments.php:34
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento &egrave; in attesa di moderazione."
+
+#: comments.php:40
+msgid "Permanent link to this comment"
+msgstr "Collegamento diretto a questo commento"
+
+#: comments.php:66
+msgid "Leave a Reply"
+msgstr "Il tuo commento"
+
+#: comments.php:69
+msgid "You must be"
+msgstr "Devi essere"
+
+#: comments.php:69
+msgid "logged in"
+msgstr "Autenticato"
+
+#: comments.php:69
+msgid "to post a comment."
+msgstr "per scrivere un commento."
+
+#: comments.php:76
+msgid "Logged in as"
+msgstr "Autenticato come"
+
+#: comments.php:76
+msgid "Log out of this account"
+msgstr "Esci"
+
+#: comments.php:76
+msgid "Logout"
+msgstr "Esci"
+
+#: comments.php:81
+msgid "Name"
+msgstr "Nome"
+
+#: comments.php:81
+msgid "required"
+msgstr "obbligatorio"
+
+#: comments.php:84
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: comments.php:84
+msgid "required, but will not published"
+msgstr "obbligatoria, ma non sar&agrave; pubblicata"
+
+#: comments.php:87
+msgid "Website"
+msgstr "Sito web"
+
+#: comments.php:93
+msgid "You can use these tags&#58;"
+msgstr "Puoi usare questi tag&#58;"
+
+#: comments.php:97
+msgid "Submit Comment"
+msgstr "Invia commento"
+
+#: feeds.php:1
+#, fuzzy
+msgid "Syndicate the posts of this site using RSS"
+msgstr "Segui gli articoli del blog usando il feed RSS"
+
+#: feeds.php:1
+msgid "Posts"
+msgstr "Articoli"
+
+#: feeds.php:1
+msgid "Syndicate the comments of this site using RSS"
+msgstr "Segui i commenti di questo sito usando il feed RSS"
+
+#: feeds.php:1
+msgid "Syndicate my favourite restaurants using RSS"
+msgstr "Segui i miei ristoranti preferiti usando il feed RSS di 2Spaghi.it"
+
+#: feeds.php:1
+msgid "Restaurants"
+msgstr "Ristoranti"
+
+#: feeds.php:1
+msgid "Syndicate my Flickr photos using RSS"
+msgstr "Segui le mie foto usando il feed RSS di Flickr"
+
+#: feeds.php:1
+msgid "Photos"
+msgstr "Foto"
+
+#: feeds.php:1
+msgid "Syndicate my aNobii books using RSS"
+msgstr "Segui i miei libri usando il feed RSS di aNobii"
+
+#: feeds.php:1
+msgid "Books"
+msgstr "Libri"
+
+#: footer.php:7
+msgid "Powered by <a href=\"http://www.wordpress.org/\">WordPress</a>"
+msgstr "Powered by <a href=\"http://www.wordpress.org/\">WordPress</a>"
+
+#: footer.php:7
+msgid "is a private theme by <a href=\"http://neminis.org/\">Vincenzo 'Nemo' Russo</a>"
+msgstr "is a private theme by <a href=\"http://neminis.org/\">Vincenzo 'Nemo' Russo</a>"
+
+#: functions.php:16
+#: searchform.php:3
+msgid "Search"
+msgstr "Cerca"
+
+#: index.php:36
+#: sidebar.php:6
+#: single.php:24
+msgid "Categories"
+msgstr "Categorie"
+
+#: related-posts.php:19
+msgid "Similar posts"
+msgstr "Articoli simili"
+
+#: related-posts.php:21
+msgid "Similar posts not available"
+msgstr "Articoli simili non disponibili"
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr "Archivi"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+#~ msgid "Categories:"
+#~ msgstr "Categorie:"
+#~ msgid "Enter the password to view related-posts."
+#~ msgstr "Inserire la password per vedere gli articoli correlati."
+

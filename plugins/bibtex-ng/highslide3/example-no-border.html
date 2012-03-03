@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Highslide JS</title>
+
+<!-- 
+    1 ) Reference to the file containing the javascript. 
+    This file must be located on your server. 
+-->
+
+<script type="text/javascript" src="highslide/highslide.js"></script>
+
+
+<!-- 
+    2) Optionally override the settings defined at the top
+    of the highslide.js file. The parameter hs.graphicsDir is important!
+-->
+
+<script type="text/javascript">    
+// remove the registerOverlay call to disable the close button
+hs.registerOverlay({
+	overlayId: 'closebutton',
+	position: 'top right',
+	fade: 2 // fading the semi-transparent overlay looks bad in IE
+});
+
+hs.graphicsDir = 'highslide/graphics/';
+</script>
+
+
+<!-- 
+    3) These CSS-styles are necessary for the script to work. You may also put
+    them in an external CSS-file. See the webpage for documentation.
+-->
+
+<style type="text/css">
+* {
+    font-family: Verdana, Helvetica;
+    font-size: 10pt;
+}
+.highslide {
+	cursor: url(highslide/graphics/zoomin.cur), pointer;
+    outline: none;
+}
+.highslide-active-anchor img {
+	visibility: hidden;
+}
+.highslide img {
+	border: 2px solid gray;
+}
+.highslide:hover img {
+	border: 2px solid silver;
+}
+
+.highslide-wrapper {
+	background: white;
+}
+.highslide-image {
+    border-bottom: 1px solid white;
+}
+.highslide-image-blur {
+}
+.highslide-caption {
+    display: none;
+    
+    border-bottom: 1px solid white;
+    font-family: Verdana, Helvetica;
+    font-size: 10pt;
+    padding: 5px;
+    background-color: silver;
+}
+.highslide-loading {
+    display: block;
+	color: black;
+	font-size: 8pt;
+	font-family: sans-serif;
+	font-weight: bold;
+    text-decoration: none;
+	padding: 2px;
+	border: 1px solid black;
+    background-color: white;
+    
+    padding-left: 22px;
+    background-image: url(highslide/graphics/loader.white.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+}
+
+a.highslide-credits,
+a.highslide-credits i {
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+	font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+    color: white;
+    background-color: gray;
+}
+a.highslide-full-expand {
+	background: url(highslide/graphics/fullexpand.gif) no-repeat;
+	display: block;
+	margin: 0 10px 10px 0;
+	width: 34px;
+	height: 34px;
+}
+.highslide-overlay {
+	display: none;
+}
+
+/* Mac-style close button */
+.closebutton {
+	position: relative;
+	top: -15px;
+	left: 15px;
+	width: 30px;
+	height: 30px;
+	cursor: hand; /* ie */
+	cursor: pointer; /* w3c */
+	background: url(highslide/graphics/close.png);
+	/* For IE6, remove background and add filter */
+	_background: none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='highslide/graphics/close.png', sizingMethod='scale');
+}
+
+
+/* These must always be last */
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
+</style>
+
+</head>
+
+<body>
+<div>
+<!-- 
+    4) This is how you mark up the thumbnail image with an anchor tag around it.
+    The anchor's href attribute defines the URL of the full-size image.
+-->
+<a href="images/full-image.jpg" class="highslide" onclick="return hs.expand(this)">
+	<img src="images/thumbnail.jpg" alt="Highslide JS"
+		title="Click to enlarge" height="120" width="107" /></a>
+
+<!-- 
+    5 (optional). This is how you mark up the caption. The caption must be directly 
+    after the anchor above.
+-->
+
+<div class="highslide-caption">
+    This caption can be styled using CSS.
+</div>
+
+<!-- 
+	5 (optional). This is the markup for the close button. The button is tied to the expander
+	in the script tag at the top of the file.
+-->
+<div id="closebutton" class="highslide-overlay closebutton"
+	onclick="return hs.close(this)" title="Close"></div>
+	
+</div>
+</body>
+</html>

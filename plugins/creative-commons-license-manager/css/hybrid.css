@@ -1,0 +1,71 @@
+figure[about] {
+    display: inline-block;
+}
+
+figure[about] > figcaption {
+    background-color: #111111;
+    color: #ededed;
+    display: block;
+    font-style: normal;
+    padding: 0.5em 1em 0.5em 0.5em;
+    text-align: right;
+    margin: 0;
+}
+
+    figure[about] > figcaption * {
+        vertical-align: middle;
+    }
+
+    figure[about] > figcaption a {
+        color: #ededed !important;
+    }
+
+    figure[about] > figcaption small * {
+        background-position: left center;
+        background-repeat: no-repeat;
+        border: none !important;
+        color: transparent !important;
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        overflow: hidden;
+        text-shadow: none !important;
+    }
+
+    figure[about] > figcaption small a {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAXNSR0IArs4c6QAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH2ggGCzkivduiSwAAAS1JREFUKBVtwT1I1AEAB9AflWd2gjlEg3PSFNQggVBLSwS5BLU1RCAYFkGELnmOIjRcZBANWSFKkG63NDY0uDiENgUFRfYBR/9EzXt5eIOI7yUtTqn64I/Ciil92U2bqi2/zKh44LlVDS+Us8NBNVvGdaZFyT3rFnWmyaSGa9nDOevmkui1aSL7cAvnY1JdV+K4m646nOgzpD/R5otXseR1oscP762YdcOGeYWBxCPfoq6SuGtNu25HLJpO9GSbO0RhLHFfoaSkbMmzxNFsM0wsm0mc8FfNW2+MWDPlsyuJh1bjsd/KiZNGDSknLqu4mDjgo7k4rWEs+3Adl5J46p+B7OGMulqadHhn04j2tDhkUGHZsezQYRpfPXHbsKpPWNCd3Zz10ndNP826kJb/4Lb7IbQFzroAAAAASUVORK5CYII=");
+    }   
+
+    figure[about] > figcaption span:after {
+        content: " // ";
+    }
+
+    figure[about] > figcaption span[href*="Image"]:after {
+        content: " // Image: ";
+    }
+
+    figure[about] > figcaption span[href*="MovingImage"]:after {
+        content: " // Video: ";
+    }
+
+    figure[about] > figcaption span[href*="Sound"]:after {
+        content: " // Audio: ";
+    }
+
+    figure[about] > figcaption button,
+    figure[about] > figcaption input {
+        color: inherit;
+        background: inherit;
+        border-width: 1px;
+        font-size: inherit;
+        width: 5em;
+    }
+
+figure[about] > img,
+figure[about] > audio,
+figure[about] > video,
+figure[about] > object {
+    border: none;
+    display: block;
+    margin: auto auto 0;
+}

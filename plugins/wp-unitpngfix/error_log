@@ -1,0 +1,2 @@
+[02-Mar-2009 16:44:53] PHP Fatal error:  Call to undefined function  add_action() in /home/otrenorg/public_html/neminis.org/wpmu/wp-content/plugins/wp-unitpngfix/wp-unitpngfix.php on line 22
+[24-May-2009 03:27:08] PHP Fatal error:  Call to undefined function  add_action() in /home/otrenorg/public_html/neminis.org/wpmu/wp-content/plugins/wp-unitpngfix/wp-unitpngfix.php on line 22

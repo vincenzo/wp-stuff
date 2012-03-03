@@ -1,0 +1,119 @@
+Plugin Name: Bibtex
+Plugin URI: http://www.chaaban.info/wordpress-plugin/bibtex/
+Description: This Plugin allows admin to insert Bibtex entries to a database from the control panel and it allow users to show the results on a wordpress page .
+Version : 1.0
+Author: Tarek Ali Chaaban (chaabant@gmail.com)
+Wordpress User Name : CHAABAN
+Author URI: http://www.chaaban.info
+
+
+READ FIRST ...
+
+1. This program is distributed in the hope that it will be 
+   useful, but WITHOUT ANY WARRANTY; without even the implied 
+   warranty of MERCHANT ABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+   If after using this plugin your computer or server belches blue 
+   smoke, eviscerates the blogbase and melts into a puddle, you 
+   were warned.
+
+   Distributed under GPL. Tarek Ali Chaaban - 28/11/2005 - 
+   
+   
+2. Installing the Plugin 
+
+  a) Unzip the bibtex.zip file , and upload it to your wp-content/plugin 
+  b) CHMOD file.txt to 666 . 
+  c) Go to : www.your-domain.com/wp-content/plugins/bibtex/install.php (to Make the Database)
+    if the installation went perfect you will see a confirmation message .
+    
+    delete the install.php file after the installation .
+
+  [if You want to use the Expand and collapse proprety] 
+  
+     d) Upload the two pics (plus_sign.png & moins.png) to wp-images .
+     e) Upload the domcollapse.js to where the blog is installed .
+     You will have to include the js file in your page .
+     add this code in the header :
+     
+     <script type="text/javascript" src="link-to-your/domcollapse.js"></script>
+     also add to your css file , what inside the style.css file .
+  [end if]
+  
+  f) Activate your plugin in your control Panel .
+  g) Make a wordpress page using your control panel
+  h) Make the Call from a page to the bibTex function .
+  
+  get_bibtex($limit=10 , $before_title = '', $after_title = '', $end)
+  
+  example of call : 
+  
+  <?php get_bibtex (10 ,'<h2 class="trigger">','</h2>',20); ?>
+  
+  This Will Show 20 elements starting from id # 10 .
+  
+  There is a file attached (wordpress page that i use ) called Bib.php
+  
+  this is a layout for page that you can edit for usage .
+  
+ 
+
+ **** Advanced Issues ****
+
+ 
+ If You would like to add more fields to the BibTex Entry those are the allowed variable that you can add :
+ 
+ $abstract , $year , $group , $publisher , $page_start , $page_end , $pages , $address , $url
+ $volume , $chapter , $journal , $author , $raw , $title , $booktitle , $folder , $type , $linebegin
+ $lineend .
+ 
+ The File to be edited is : 
+ 
+ show_bibtex.php
+ 
+ You just need to Uncomment or Comment what you want to appear on the site .
+
+  
+***** Database Issues *****
+  
+  If You dont want to run /bibtex/install.php or got some error when running it , you can simply go to your phpMyAdmin and execute the following query :
+  
+  CREATE TABLE wp_Bibtex (
+      id int(11) NOT NULL auto_increment,
+      entry_type varchar(255) NOT NULL default '',
+      uniq_key varchar(255) NOT NULL default '',
+      abstract mediumtext,
+      `year` year(4) default NULL,
+      groupes varchar(255) default NULL,
+      publisher varchar(255) default NULL,
+      page_start varchar(255) default NULL,
+      page_end varchar(255) default NULL,
+      pages varchar(55) default NULL,
+      address varchar(255) default NULL,
+      url varchar(255) default NULL,
+      volume varchar(255) default NULL,
+      chapter varchar(255) default NULL,
+      journal text,
+      author varchar(255) default NULL,
+      raw text,
+      title varchar(255) NOT NULL default '',
+      booktitle varchar(255) default NULL,
+      folder varchar(255) default NULL,
+      `types` text,
+      linebegin varchar(255) default NULL,
+      lineend varchar(255) default NULL,
+      PRIMARY KEY  (id),
+      UNIQUE KEY `key` (uniq_key)
+  ) ENGINE=MyISAM ;
+
+ 
+*******************************************
+ 
+ 3) Donation
+  
+  If you enjoy using this plugin or appreciate the hard work that goes into developing and maintaining it for the community, please consider donating.
+  All funds will go into the support, maintenance, and development of future wp-Bibtex releases.
+  Thanks for your support.(Paypal : chaabant@iro.umontreal.ca)
+   
+  
+  

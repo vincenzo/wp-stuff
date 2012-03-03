@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Idea Wordpress Theme 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-31 18:34+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vincenzo 'Nemo' Russo <nemo@neminis.org>\n"
+"Language-Team: Vincenzo Russo <nemo@neminis.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:3
+#: archive.php:26
+#: index.php:43
+#: page.php:21
+#: search.php:26
+msgid "Not Found"
+msgstr "Non trovato"
+
+#: archive.php:13
+#: comments.php:21
+msgid "No Comments"
+msgstr "Nessun commento"
+
+#: archive.php:13
+msgid "One Comment"
+msgstr "Un commento"
+
+#: archive.php:13
+#: feeds.php:1
+msgid "Comments"
+msgstr "Commenti"
+
+#: archive.php:14
+msgid "Follow the comments by this RSS feed"
+msgstr "Segui i commenti tramite questo feed RSS"
+
+#: archive.php:14
+msgid "Follow comments"
+msgstr "Segui i commenti"
+
+#: archive.php:15
+msgid "Edit"
+msgstr "Modifica"
+
+#: archive.php:19
+#: index.php:23
+#: index.php:27
+#: search.php:19
+msgid "Read more"
+msgstr "Leggi il seguito"
+
+#: archive.php:26
+msgid "You are looking for something which just is not here! Fear not however, errors are to be expected, and luckily there are tools on the sidebar for you to use in your search for what you need."
+msgstr "Stai cercando qualcosa che non &egrave; qui! Niente paura, comunque. Gli errori sono comuni e fortunatamente ci sono strumenti nella barra laterale che puoi usare per trovare ci&ograve; che ti cerchi."
+
+#: comments.php:7
+#: related-posts.php:7
+msgid "Password Protected"
+msgstr "Protetto da password"
+
+#: comments.php:8
+msgid "Enter the password to view comments."
+msgstr "Inserire la password per leggere i commenti"
+
+#: comments.php:21
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#: comments.php:21
+msgid "% Comments"
+msgstr "% Commenti"
+
+#: comments.php:34
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento &egrave; in attesa di moderazione"
+
+#: comments.php:66
+msgid "Leave a Reply"
+msgstr "E tu cosa ne pensi?"
+
+#: comments.php:76
+msgid "Logged in as"
+msgstr "Autenticato come"
+
+#: comments.php:76
+msgid "Logout"
+msgstr "Esci"
+
+#: comments.php:92
+msgid "You can use these tags&#58;"
+msgstr "Puoi usare questi tag&#58;"
+
+#: feeds.php:1
+msgid "Syndicate the post of this site using RSS"
+msgstr "Segui gli articoli del blog usando il feed RSS"
+
+#: feeds.php:1
+msgid "Posts"
+msgstr "Articoli"
+
+#: feeds.php:1
+msgid "Syndicate the comments of this site using RSS"
+msgstr "Segui i commenti di questo sito usando il feed RSS"
+
+#: functions.php:16
+msgid "Search"
+msgstr "Cerca"
+
+#: index.php:35
+msgid "Categories:"
+msgstr "Categorie:"
+
+#: related-posts.php:8
+msgid "Enter the password to view related-posts."
+msgstr "Inserire la password per vedere gli articoli correlati."
+
+#: sidebar.php:6
+msgid "Categories"
+msgstr "Categorie"
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr "Archivi"
+

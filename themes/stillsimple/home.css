@@ -1,0 +1,21 @@
+#content {width: 400px}
+#content h2.blog {color: #333;font: bold 22px;border-bottom: 1px solid #333; margin-top: 10px; text-align: right}
+#content h2.blog a {color: #690}
+#side {width: 560px}
+#side div {padding-top: 0px}
+#side ul.lifestream li {background-repeat: no-repeat; padding: 0; margin: 0;}
+#side ul.lifestream li div div {margin-left: 20px;margin-bottom: 0;}
+#head {height: 300px; overflow: hidden}
+#head div.about {text-align:left;width: 82%;margin: 0;margin-top: 15px;float: left;}
+#head div.about img {float:left;margin-top: 0;margin-left: 0; margin-right: 5px}
+#head div.about p {float: none; font-size: 1.3em; color: #fff; margin-top:  18px; padding: 5px;text-align: justify;border-right: 2px #ccc inset; padding-right: 15px;}
+#head div.about p a, #head div.about p a:visited {color: #690;}
+#head div.about p a img {margin-left: 15px; margin-right: 0;}
+#head div.page-list-home {clear: none;text-align:right; margin-top: 35px;width: 18%;float: left;font-size: 1.3em;}
+#head div.page-list-home a, #head div.page-list-home a:visited {color: #690;}
+#head div.page-list-home a {display:block; padding-bottom:0.5em;width: 100%;}
+#content .post {clear: both;padding: 7px 10px;padding-top: 10px}
+#content .post-content p {font-size: 14px; margin-top: 3px}
+#content .post-meta {font-size: 14px}
+#content .post-content h2 a {font-size: 18px}
+div.navigation {text-align: right; width: 380px}

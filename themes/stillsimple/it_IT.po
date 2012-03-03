@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Keepitsimple 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-03 12:01+0100\n"
+"PO-Revision-Date: 2008-09-03 12:06+0100\n"
+"Last-Translator: Vincenzo 'Nemo' Russo <nemo@neminis.org>\n"
+"Language-Team: Vincenzo Russo (aka Nemo) <nemo@neminis.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments-popup.php:9
+#, php-format
+msgid "Comments on %s"
+msgstr "Commenti su %s"
+
+#: comments-popup.php:22
+#: comments.php:6
+msgid "Comments"
+msgstr "Commenti"
+
+#: comments-popup.php:24
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed per i commenti di questo articolo."
+
+#: comments-popup.php:27
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
+msgstr "L'<abbr title=\"Universal Resource Locator\">URL</abbr> per il TrackBack di questo articolo &egrave;:"
+
+#: comments-popup.php:45
+#: index.php:11
+msgid "Comment"
+msgstr "Commenta"
+
+#: comments-popup.php:45
+msgid "Trackback"
+msgstr "Trackback"
+
+#: comments-popup.php:45
+msgid "Pingback"
+msgstr "Pingback"
+
+#: comments-popup.php:45
+msgid "by"
+msgstr "di"
+
+#: comments-popup.php:51
+#: comments.php:45
+msgid "No comments yet."
+msgstr "Ancora nessun commento."
+
+#: comments-popup.php:55
+#: comments.php:49
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: comments-popup.php:56
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
+msgstr "Linee e paragrafi vanno a capo automaticamente, gli indirizzi e-mail non vengono mostrati mai, è permesso l'uso di <acronym title=\"Hypertext Markup Language\">HTML</acronym>"
+
+#: comments-popup.php:60
+#: comments.php:57
+#, php-format
+msgid "Logged in as %s."
+msgstr "Autenticato come %s."
+
+#: comments-popup.php:60
+#: comments.php:57
+msgid "Log out of this account"
+msgstr "Esci da questo account"
+
+#: comments-popup.php:60
+#: comments.php:57
+msgid "Log out &raquo;"
+msgstr "Esci &raquo;"
+
+#: comments-popup.php:64
+#: comments.php:60
+msgid "Nickname"
+msgstr "Nickname"
+
+#: comments-popup.php:71
+#: comments.php:61
+msgid "E-mail"
+msgstr "E-mail"
+
+#: comments-popup.php:76
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+
+#: comments-popup.php:81
+msgid "Your Comment"
+msgstr "Il tuo commento"
+
+#: comments-popup.php:87
+msgid "Say It!"
+msgstr "Diglielo!"
+
+#: comments-popup.php:92
+#: comments.php:73
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Spiacente, i commenti sono chiusi al momento."
+
+#: comments-popup.php:97
+msgid "Close this window."
+msgstr "Chiudi questa finestra."
+
+#: comments-popup.php:105
+#, php-format
+msgid "<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s\"><strong>WordPress</strong></a></cite>"
+msgstr "<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s\"><strong>WordPress</strong></a></cite>"
+
+#: comments-popup.php:105
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, la piattaforma di pubblicazione personale allo stato dell'arte."
+
+#: comments.php:2
+msgid "Enter your password to view comments."
+msgstr "Inserisci la tua password per vedere i commenti."
+
+#: comments.php:34
+msgid "Trackbacks"
+msgstr "Trackback"
+
+#: comments.php:51
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Devi essere <a href=\"%s\">autenticato</a> per pubblicare un commento."
+
+#: comments.php:62
+msgid "Url"
+msgstr "Url"
+
+#: comments.php:65
+msgid "Say it"
+msgstr "Diglielo"
+
+#: footer.php:4
+msgid "Powered by <a href=\"http://wordpress.org\" title=\"WordPress\">WordPress</a>"
+msgstr "Powered by <a href=\"http://wordpress.org\" title=\"WordPress\">WordPress</a>"
+
+#: functions.php:22
+msgid "a lot"
+msgstr "tantissimi"
+
+#: header.php:33
+msgid "Search"
+msgstr "Cerca"
+
+#: index.php:11
+msgid "One comment"
+msgstr "Un commento"
+
+#: index.php:11
+msgid "<strong>%</strong> comments"
+msgstr "<strong>%</strong> commenti"
+
+#: index.php:15
+msgid "(more...)"
+msgstr "Leggi il seguito..."
+
+#: index.php:16
+msgid "Tags"
+msgstr "Tag"
+
+#: index.php:21
+msgid "Edit This"
+msgstr "Modifica"
+
+#: index.php:31
+msgid "Sorry, no posts matched your criteria."
+msgstr "Spiacente, nessun articolo corrisponde a ci&ograve; che cerchi."
+
+#: sidebar.php:12
+msgid "Subscribe RSS Feed (%s already)"
+msgstr "Sottoscrivi Feed RSS (gi&agrave; %s)"
+
+#: sidebar.php:16
+msgid "Categories"
+msgstr "Categorie"
+
+#: sidebar.php:25
+msgid "Blog love"
+msgstr "Blog love"
+

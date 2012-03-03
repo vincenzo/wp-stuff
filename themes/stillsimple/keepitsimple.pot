@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Keepitsimple 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-03 12:01+0100\n"
+"PO-Revision-Date: 2008-09-03 12:01+0100\n"
+"Last-Translator: Vincenzo Russo (aka Nemo) <nemo@neminis.org>\n"
+"Language-Team: Vincenzo Russo (aka Nemo) <nemo@neminis.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments-popup.php:9
+#, php-format
+msgid "Comments on %s"
+msgstr ""
+
+#: comments-popup.php:22
+#: comments.php:6
+msgid "Comments"
+msgstr ""
+
+#: comments-popup.php:24
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr ""
+
+#: comments-popup.php:27
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
+msgstr ""
+
+#: comments-popup.php:45
+#: index.php:11
+msgid "Comment"
+msgstr ""
+
+#: comments-popup.php:45
+msgid "Trackback"
+msgstr ""
+
+#: comments-popup.php:45
+msgid "Pingback"
+msgstr ""
+
+#: comments-popup.php:45
+msgid "by"
+msgstr ""
+
+#: comments-popup.php:51
+#: comments.php:45
+msgid "No comments yet."
+msgstr ""
+
+#: comments-popup.php:55
+#: comments.php:49
+msgid "Leave a comment"
+msgstr ""
+
+#: comments-popup.php:56
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
+msgstr ""
+
+#: comments-popup.php:60
+#: comments.php:57
+#, php-format
+msgid "Logged in as %s."
+msgstr ""
+
+#: comments-popup.php:60
+#: comments.php:57
+msgid "Log out of this account"
+msgstr ""
+
+#: comments-popup.php:60
+#: comments.php:57
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments-popup.php:64
+#: comments.php:60
+msgid "Nickname"
+msgstr ""
+
+#: comments-popup.php:71
+#: comments.php:61
+msgid "E-mail"
+msgstr ""
+
+#: comments-popup.php:76
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr ""
+
+#: comments-popup.php:81
+msgid "Your Comment"
+msgstr ""
+
+#: comments-popup.php:87
+msgid "Say It!"
+msgstr ""
+
+#: comments-popup.php:92
+#: comments.php:73
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: comments-popup.php:97
+msgid "Close this window."
+msgstr ""
+
+#: comments-popup.php:105
+#, php-format
+msgid "<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s\"><strong>WordPress</strong></a></cite>"
+msgstr ""
+
+#: comments-popup.php:105
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: comments.php:2
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: comments.php:34
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:51
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:62
+msgid "Url"
+msgstr ""
+
+#: comments.php:65
+msgid "Say it"
+msgstr ""
+
+#: footer.php:4
+msgid "Powered by <a href=\"http://wordpress.org\" title=\"WordPress\">WordPress</a>"
+msgstr ""
+
+#: functions.php:22
+msgid "a lot"
+msgstr ""
+
+#: header.php:33
+msgid "Search"
+msgstr ""
+
+#: index.php:11
+msgid "One comment"
+msgstr ""
+
+#: index.php:11
+msgid "<strong>%</strong> comments"
+msgstr ""
+
+#: index.php:15
+msgid "(more...)"
+msgstr ""
+
+#: index.php:16
+msgid "Tags"
+msgstr ""
+
+#: index.php:21
+msgid "Edit This"
+msgstr ""
+
+#: index.php:31
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: sidebar.php:12
+#, php-format
+msgid "Subscribe <abbr title=\"Really Simple Syndication\">RSS</abbr> Feed (%s already)"
+msgstr ""
+
+#: sidebar.php:16
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Blog love"
+msgstr ""
+

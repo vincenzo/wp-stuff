@@ -1,0 +1,101 @@
+# This file is distributed under the same license as the Signature plugin.
+# Vincenzo Russo <nemo@neminis.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-07 22:32+0200\n"
+"PO-Revision-Date: 2008-10-07 23:10+0100\n"
+"Last-Translator: Vincenzo 'Nemo' Russo <nemo@neminis.org>\n"
+"Language-Team: Vincenzo Russo <nemo@neminis.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: signature.php:62
+#: signature.php:154
+msgid "Anonymous"
+msgstr "Anonimo"
+
+#: signature.php:149
+msgid "Signature disabled"
+msgstr "Firma disabilitata"
+
+#: signature.php:150
+msgid "First name"
+msgstr "Nome"
+
+#: signature.php:151
+msgid "Last name"
+msgstr "Cognome"
+
+#: signature.php:152
+msgid "Nickname"
+msgstr "Nick"
+
+#: signature.php:153
+msgid "First name + Last name"
+msgstr "Nome + Cognome"
+
+#: signature.php:155
+#: signature.php:187
+msgid "Custom signature"
+msgstr "Firma personalizzata"
+
+#: signature.php:173
+#: signature.php:205
+msgid "Your Signature"
+msgstr "La tua firma"
+
+#: signature.php:176
+msgid "Signature setting"
+msgstr "Impostazione firma"
+
+#: signature.php:180
+msgid "is a placeholder for your firstname"
+msgstr "verr&agrave; sostituito col tuo nome"
+
+#: signature.php:181
+msgid "is a placeholder for your lastname"
+msgstr "verr&agrave; sostituito col tuo cognome"
+
+#: signature.php:182
+msgid "is a placeholder for your nickname"
+msgstr "verr&agrave; sostituito col tuo nick"
+
+#: signature.php:183
+msgid "is a placeholder for your e-mail address"
+msgstr "verr&agrave; sostituito col tuo indirizzo di posta elettronica"
+
+#: signature.php:184
+msgid "is a placeholder for your website"
+msgstr "verr&agrave; sostituito col tuo sito web"
+
+#: signature.php:187
+msgid "IMPORTANT: to use this field as signature you have to choose \"Custom signature\" from the setting above."
+msgstr "IMPORTANTE: per usare questo campo come firma devi scegliere \"Firma personalizzata\" dall'impostazione sopra."
+
+#: signature.php:187
+msgid "XHTML tags allowed"
+msgstr "Tag XHTML ammessi"
+
+#: signature.php:187
+msgid "Special code allowed"
+msgstr "Codice speciale ammesso"
+
+#: signature.php:189
+msgid "Update"
+msgstr "Aggiorna"
+
+#: signature.php:205
+msgid "Choose Your Signature"
+msgstr "Scegli la tua firma"
+
+#: signature.php:221
+msgid "Example of custom signature. You can add your fullname by using the special code [first] [last]. Other special codes are available: see below."
+msgstr "Esempio di firma personalizzata. Puoi aggiungere il tuo nome completo usando il codice speciale [first] [last].Altri codici speciali sono ammessi: vedi in basso"
+

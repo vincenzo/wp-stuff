@@ -1,0 +1,99 @@
+# This file is distributed under the same license as the Signature plugin.
+# Vincenzo Russo <nemo@neminis.org>, 2008.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-07 22:32+0200\n"
+"PO-Revision-Date: 2008-10-07 22:32+0200\n"
+"Last-Translator: Vincenzo Russo <nemo@neminis.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: signature.php:62 signature.php:154
+msgid "Anonymous"
+msgstr ""
+
+#: signature.php:149
+msgid "Signature disabled"
+msgstr ""
+
+#: signature.php:150
+msgid "First name"
+msgstr ""
+
+#: signature.php:151
+msgid "Last name"
+msgstr ""
+
+#: signature.php:152
+msgid "Nickname"
+msgstr ""
+
+#: signature.php:153
+msgid "First name + Last name"
+msgstr ""
+
+#: signature.php:155 signature.php:187
+msgid "Custom signature"
+msgstr ""
+
+#: signature.php:173 signature.php:205
+msgid "Your Signature"
+msgstr ""
+
+#: signature.php:176
+msgid "Signature setting"
+msgstr ""
+
+#: signature.php:180
+msgid "is a placeholder for your firstname"
+msgstr ""
+
+#: signature.php:181
+msgid "is a placeholder for your lastname"
+msgstr ""
+
+#: signature.php:182
+msgid "is a placeholder for your nickname"
+msgstr ""
+
+#: signature.php:183
+msgid "is a placeholder for your e-mail address"
+msgstr ""
+
+#: signature.php:184
+msgid "is a placeholder for your website"
+msgstr ""
+
+#: signature.php:187
+msgid ""
+"IMPORTANT: to use this field as signature you have to choose \"Custom "
+"signature\" from the setting above."
+msgstr ""
+
+#: signature.php:187
+msgid "XHTML tags allowed"
+msgstr ""
+
+#: signature.php:187
+msgid "Special code allowed"
+msgstr ""
+
+#: signature.php:189
+msgid "Update"
+msgstr ""
+
+#: signature.php:205
+msgid "Choose Your Signature"
+msgstr ""
+
+#: signature.php:221
+msgid ""
+"Example of custom signature. You can add your fullname by using the special "
+"code [first] [last]. Other special codes are available: see below."
+msgstr ""
