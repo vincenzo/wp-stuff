@@ -44,7 +44,7 @@ function fdfootnote_enqueue_scripts() {
   }
 
   wp_enqueue_script('jquery');
-  wp_register_script('fdfootnote_script', get_bloginfo('wpurl') . '/' . PLUGINDIR . '/' . dirname(plugin_basename(__FILE__)) . '/fdfootnotes.js', array(), '1.3');
+  wp_register_script('fdfootnote_script', get_bloginfo('wpurl') . '/' . PLUGINDIR . '/' . dirname(plugin_basename(__FILE__)) . '/fdfootnotes.js', array('jquery'), '1.3');
   wp_enqueue_script('fdfootnote_script');
 }
 
